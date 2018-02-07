@@ -15,7 +15,8 @@
                 <action android:name="android.intent.action.INPUT_METHOD_CHANGED" />
             </intent-filter>
         </receiver>
-        <service android:name=".MyService" />
+        <service android:name=".MyService"
+            android:enabled="true" />
         <activity android:name=".MainActivity">
 
 
