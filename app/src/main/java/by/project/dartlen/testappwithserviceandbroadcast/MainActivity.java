@@ -25,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
         intent.setAction(Constants.ACTION.STARTFOREGROUND_ACTION);
         startService(intent);
 
+
+
+
     }
 
     // This method will be called when a SomeOtherEvent is posted
