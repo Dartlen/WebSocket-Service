@@ -16,7 +16,11 @@
             </intent-filter>
         </receiver>
         <service android:name=".MyService"
-            android:enabled="true" />
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="my.service.intent"/>
+            </intent-filter>
+        </service>
         <activity android:name=".MainActivity">
 
 
